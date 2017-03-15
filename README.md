@@ -26,13 +26,13 @@ ssh-keygen -f "/home/asaf/.ssh/known_hosts" -R 192.168.1.207
 #user pi pass raspberry
 
 # move files to raspberry pi
-scp -r /media/asaf/ca4192df-0206-4a01-8ca5-1f720fd60b57/programs/RaspberryPi/garage_door/. pi@192.168.1.207:/home/pi/garage/
+scp -r <local files directory>/. pi@192.168.1.207:/home/pi/garage/
 
 # login:
 ssh pi@192.168.1.207
 
 #update everything
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update
 
 # install python, apache and php
 sudo apt-get install python-dev python-rpi.gpio apache2 php5 libapache2-mod-php5 -y
