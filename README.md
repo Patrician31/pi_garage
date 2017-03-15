@@ -1,5 +1,7 @@
 # pi_garage
 
+This project (as the name suggests) is a web enabled garage door controller. With it I can open and close my garage door from anywhere with internet access. I've also added a webcam so I could get an image of the garage doors. One more thing this pi controls is a wall fan that turns on for 15 minutes every few hours to keep air circulating in the garage (I live in the hot&humid south)
+
 #download raspbian image from:
 https://www.raspberrypi.org/downloads/raspbian/
 
