@@ -26,7 +26,7 @@ ssh-keygen -f "/home/asaf/.ssh/known_hosts" -R 192.168.1.207
 #user pi pass raspberry
 
 # move files to raspberry pi
-scp -r <local files directory>/. pi@192.168.1.207:/home/pi/garage/
+scp -r <-local files directory>/. pi@192.168.1.207:/home/pi/garage/
 
 # login:
 ssh pi@192.168.1.207
